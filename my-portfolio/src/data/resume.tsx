@@ -33,10 +33,12 @@ export const DATA = {
       company: "Asurion ROHQ",
       href: "https://www.asurion.com",
       title: "Full Stack Engineer",
-      // logoUrl: "/atomic.png",
-      startDate: "2024",
-      endDate: "Present",
-      description: "Building a decentralized trading platform",
+      badge: [],
+      logoUrl: "../src/assets/asurion-logo.png",
+      start: "2024",
+      end: "Present",
+      description:
+        "I contributed to building a responsive front-end app using TypeScript and React, integrating TanStack Query for efficient data fetching and state management. I implemented dynamic UI components with reusable design patterns and optimized performance. Leveraged TypeScript for type safety and maintainable code, while working closely with the backend to ensure seamless API integration for a smooth user experience.",
     },
   ],
   education: [
