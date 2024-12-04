@@ -2,6 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { HomeDocker } from "@/page/home";
 import { PersonDescription } from "@/components/person-description";
 
+import { DATA } from "@/data/resume";
+import { About } from "@/page/about";
+
 export const Route = createFileRoute("/")({
   component: RouteComponent,
 });
@@ -10,18 +13,18 @@ function RouteComponent() {
   return (
     <div className="flex flex-col min-h-[100dvh] space-y-10">
       <div className="mx-auto w-full max-w-2xl space-y-8">
-        <div className="gap-2 flex justify-between">
+        <section>
           <PersonDescription
-            name="Karlos"
-            description="Full Stack Engineer who’s all about building cool stuff from front to back. I love tackling challenges and making things work. Catch me on Twitter for some tech talk!"
+            name={DATA.name.split(" ")[0]}
+            description={DATA.description}
             image="../../src/assets/profile-picture.jpg"
           />
-        </div>
+        </section>
+        <section>
+          <About />
+        </section>
       </div>
-
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex justify-center">
-        <HomeDocker />
-      </div>
+      <HomeDocker />
     </div>
   );
 }

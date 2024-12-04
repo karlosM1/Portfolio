@@ -1,33 +1,26 @@
-import { Link } from "@tanstack/react-router";
 import { Dock, DockIcon } from "@/components/ui/dock";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { Separator } from "@/components/ui/separator";
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const HomeDocker = () => {
   return (
-    <div className="relative">
-      <Dock magnification={60} distance={100}>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.gitHub className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.googleDrive className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.notion className="size-full" />
-        </DockIcon>
-        <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.whatsapp className="size-full" />
-        </DockIcon>
-      </Dock>
+    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 flex justify-center">
+      <div className="relative">
+        <Dock magnification={60} distance={100}>
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <Icons.gitHub className="size-full" />
+          </DockIcon>
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <Icons.googleDrive className="size-full" />
+          </DockIcon>
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <Icons.notion className="size-full" />
+          </DockIcon>
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <Icons.whatsapp className="size-full" />
+          </DockIcon>
+        </Dock>
+      </div>
     </div>
   );
 };
