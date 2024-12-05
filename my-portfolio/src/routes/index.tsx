@@ -6,6 +6,7 @@ import { ResumeCard } from "@/components/resume-card";
 import { DATA } from "@/data/resume";
 import { About } from "@/page/about";
 import BlurFade from "@/components/ui/blur-fade";
+import { ProjectCard } from "@/components/project-card";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -14,12 +15,12 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <div className="flex flex-col min-h-[100dvh] space-y-10">
-      <div className="mx-auto w-full max-w-2xl space-y-8">
+      <div className="mx-auto w-full max-w-5xl space-y-8">
         <section>
           <PersonDescription
             name={DATA.name.split(" ")[0]}
             description={DATA.description}
-            image="../../src/assets/profile-picture.jpg"
+            image="../../src/assets/serrano.jpg"
           />
         </section>
         <section>
@@ -47,6 +48,14 @@ function RouteComponent() {
               />
             </BlurFade>
           ))}
+        </section>
+        <section>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </section>
       </div>
       <HomeDocker />
