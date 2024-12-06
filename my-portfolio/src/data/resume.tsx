@@ -50,4 +50,64 @@ export const DATA = {
       endDate: "2025",
     },
   ],
+  projects: [
+    {
+      title: "AI-nforcer",
+      href: "",
+      dates: "Oct 2024 - Present",
+      active: true,
+      description: "Plate Number and Helmet Detection",
+      technologies: [
+        "React",
+        "Typescript",
+        "FireBase",
+        "Express",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Next UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          // icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Waste Classification Detection",
+      href: "",
+      dates: "January 2024 - September 2024",
+      active: true,
+      description:
+        "This web application classifies waste images into either Organic or Recyclable categories using a pre-trained TensorFlow model.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "SQLAlchemy",
+        "JavaScript",
+        "Python",
+        "Flask",
+        "Open-CV",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          // icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/magicuidesign/magicui",
+          // icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+  ],
 } as const;

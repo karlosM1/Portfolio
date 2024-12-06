@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <div className="flex flex-col min-h-[100dvh] space-y-10">
-      <div className="mx-auto w-full max-w-5xl space-y-8">
+      <div className="mx-auto w-full max-w-4xl space-y-8">
         <section>
           <PersonDescription
             name={DATA.name.split(" ")[0]}
@@ -51,10 +51,20 @@ function RouteComponent() {
         </section>
         <section>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            {DATA.projects.map((project, id) => (
+              <BlurFade key={project.title} delay={0.04 * 12 + id * 0.05}>
+                <ProjectCard
+                  href={project.href}
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  dates={project.dates}
+                  tags={project.technologies}
+                  image={project.image}
+                  video={project.video}
+                />
+              </BlurFade>
+            ))}
           </div>
         </section>
       </div>
