@@ -1,3 +1,4 @@
+import { Mail } from "lucide-react";
 export const DATA = {
   name: "Karlos Miguel Serrano",
   initials: "KMS",
@@ -70,7 +71,7 @@ export const DATA = {
         {
           type: "Website",
           href: "",
-          // icon: <Icons.globe className="size-3" />,
+          icon: <Mail className="size-3" />,
         },
       ],
       image: "",
@@ -97,12 +98,7 @@ export const DATA = {
         {
           type: "Website",
           href: "",
-          // icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          // icon: <Icons.github className="size-3" />,
+          icon: <Mail className="size-3" />,
         },
       ],
       image: "",
