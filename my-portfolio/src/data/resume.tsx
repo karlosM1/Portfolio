@@ -113,50 +113,66 @@ export const DATA = {
 export const reviews = [
   {
     name: "HTML",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
     img: "../src/assets/html-5.png",
   },
   {
     name: "CSS",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "../src/assets/css-3.png",
   },
   {
     name: "Javascript",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/js.png",
   },
   {
     name: "Typescript",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/typescript.png",
   },
   {
     name: "Tanstack",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/tanstack.png",
   },
   {
     name: "Python",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/python.png",
   },
   {
     name: "React",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/react.png",
   },
   {
     name: "Tanstack Query",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
     img: "../src/assets/query.png",
+  },
+  {
+    name: "TailwindCSS",
+    img: "../src/assets/tailwind.png",
+  },
+  {
+    name: "Shadcn UI",
+    img: "../src/assets/shadcn.png",
+  },
+  {
+    name: "Magic UI",
+    img: "../src/assets/magic-ui.png",
+  },
+  {
+    name: "Firebase",
+    img: "../src/assets/firebase.png",
+  },
+  {
+    name: "Express",
+    img: "../src/assets/express.png",
+  },
+  {
+    name: "Node Js",
+    img: "../src/assets/programing.png",
+  },
+  {
+    name: "Git",
+    img: "../src/assets/git.png",
+  },
+  {
+    name: "Github",
+    img: "../src/assets/githubs.png",
   },
 ];
