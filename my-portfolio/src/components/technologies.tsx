@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import Marquee from "./ui/marquee";
 import { reviews } from "../data/resume";
-import { MagicCard } from "./ui/magic-card";
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
