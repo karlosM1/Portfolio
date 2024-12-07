@@ -1,4 +1,6 @@
 import { Mail } from "lucide-react";
+import { SvgIcons } from "@/components/Icons/icons";
+
 export const DATA = {
   name: "Karlos Miguel Serrano",
   initials: "KMS",
@@ -113,19 +115,19 @@ export const reviews = [
     name: "HTML",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    img: "../src/assets/html-5.png",
   },
   {
     name: "CSS",
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    img: "../src/assets/css-3.png",
   },
   {
     name: "Javascript",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    img: "../src/assets/js.png",
   },
   {
     name: "Typescript",
@@ -137,12 +139,24 @@ export const reviews = [
     name: "Tanstack",
     username: "@jenny",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: "../src/assets/tanstack.png",
   },
   {
     name: "Python",
     username: "@james",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    img: "../src/assets/python.png",
+  },
+  {
+    name: "React",
+    username: "@james",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "../src/assets/react.png",
+  },
+  {
+    name: "Tanstack Query",
+    username: "@james",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: "../src/assets/query.png",
   },
 ];

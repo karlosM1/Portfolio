@@ -59,12 +59,10 @@ function RouteComponent() {
                     Technologies
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    Check out my latest work
+                    Technical Skills
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    I&apos;ve worked on a variety of projects, from simple
-                    websites to complex web applications. Here are a few of my
-                    favorites.
+                    Here&apos;s some of the tricks I've picked up along the way
                   </p>
                 </div>
               </div>
@@ -75,7 +73,7 @@ function RouteComponent() {
           </div>
         </section>
         <section>
-          <div className="space-y-12 w-full py-12">
+          <div className="space-y-12 w-full py-14">
             <BlurFade delay={0.04 * 11}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
