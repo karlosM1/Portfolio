@@ -35,7 +35,7 @@ function RouteComponent() {
           </div>
 
           {DATA.work.map((work, id) => (
-            <BlurFade key={work.company} delay={0.04 * 6 + id * 0.05}>
+            <BlurFade key={work.company} delay={0.03 * 6 + id * 0.05}>
               <ResumeCard
                 key={work.company}
                 logoUrl={work.logoUrl}
@@ -46,6 +46,27 @@ function RouteComponent() {
                 badges={work.badge}
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
+              />
+            </BlurFade>
+          ))}
+        </section>
+        <section>
+          <div>
+            <BlurFade delay={0.04 * 5}>
+              <h2 className="text-xl font-bold">Education</h2>
+            </BlurFade>
+          </div>
+
+          {DATA.education.map((education, id) => (
+            <BlurFade key={education.school} delay={0.03 * 6 + id * 0.05}>
+              <ResumeCard
+                key={education.school}
+                logoUrl={education.logoUrl}
+                altText={education.school}
+                title={education.school}
+                subtitle={education.degree}
+                href={education.href}
+                period={`${education.startDate} - ${education.endDate ?? "Present"}`}
               />
             </BlurFade>
           ))}

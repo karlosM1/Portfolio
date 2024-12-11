@@ -48,9 +48,18 @@ export const DATA = {
     {
       school: "Lyceum of the Philippines University",
       degree: "Bachelor of Science in Computer Science",
+      logoUrl: "../src/assets/lpu-logo.png",
       href: "https://manila.lpu.edu.ph",
       startDate: "2021",
       endDate: "2025",
+    },
+    {
+      school: "Polytechnic University of the Philippines",
+      degree: "Science Technology and Engineering Mathematics",
+      logoUrl: "../src/assets/pup-logo.png",
+      href: "https://www.pup.edu.ph",
+      startDate: "2019",
+      endDate: "2021",
     },
   ],
   projects: [
@@ -176,10 +185,6 @@ export const reviews = [
   {
     name: "Shadcn UI",
     img: "../src/assets/shadcn.png",
-  },
-  {
-    name: "Magic UI",
-    img: "../src/assets/magic-ui.png",
   },
   {
     name: "Firebase",
