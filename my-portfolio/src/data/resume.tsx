@@ -1,5 +1,4 @@
 import { Mail } from "lucide-react";
-import { SvgIcons } from "@/components/Icons/icons";
 
 export const DATA = {
   name: "Karlos Miguel Serrano",

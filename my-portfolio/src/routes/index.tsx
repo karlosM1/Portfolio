@@ -15,13 +15,13 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
   return (
-    <div className="flex flex-col min-h-[100dvh] space-y-10">
+    <div className="flex flex-col min-h-[100dvh] space-y-10 sm:mx-14 md:mx-20">
       <div className="mx-auto w-full max-w-4xl space-y-8">
         <section>
           <PersonDescription
             name={DATA.name.split(" ")[0]}
             description={DATA.description}
-            image="../../src/assets/serrano.jpg"
+            image="../../src/assets/me.jpg"
           />
         </section>
         <section>

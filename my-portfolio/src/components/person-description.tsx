@@ -8,8 +8,8 @@ export function PersonDescription({
   image,
 }: PersonDescriptionProps) {
   return (
-    <div className="flex flex-row justify-center items-center gap-4">
-      <div className="flex-col flex flex-1 space-y-1.5">
+    <div className="flex flex-row justify-center items-center gap-2 sm:gap-2 md:gap-4 lg:gap-6">
+      <div className="flex-col flex flex-1">
         <BlurFade delay={0.02} inView>
           <h1 className="text-3xl mb-2 font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
             Hi, I'm {name} 👨‍💻
@@ -20,7 +20,11 @@ export function PersonDescription({
       <div>
         <BlurFade delay={0.04}>
           <Avatar className="size-28 border">
-            <AvatarImage className="w-full" src={image} alt="profile-picture" />
+            <AvatarImage
+              className="w-full h-full object-cover"
+              src={image}
+              alt="profile-picture"
+            />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
         </BlurFade>
