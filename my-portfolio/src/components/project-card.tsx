@@ -1,14 +1,10 @@
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Mail, Cog } from "lucide-react";
-import { SvgIcons } from "./Icons/icons";
 import { Badge } from "./ui/badge";
 import { Link } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
