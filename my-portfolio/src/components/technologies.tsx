@@ -18,7 +18,7 @@ const ReviewCard = ({ img, name }: { img: string; name: string }) => {
         <TooltipProvider delayDuration={0}>
           <Tooltip>
             <TooltipTrigger>
-              <img src={img} alt={name} className="h-12 w-12" />
+              <img src={img} alt={name} className="h-12 w-12 object-contain" />
             </TooltipTrigger>
             <TooltipContent>
               <p>{name}</p>
