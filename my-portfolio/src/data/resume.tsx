@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Mail, Code } from "lucide-react";
 
 export const DATA = {
   name: "Karlos Miguel Serrano",
@@ -83,6 +83,11 @@ export const DATA = {
           href: "",
           icon: <Mail className="size-3" />,
         },
+        {
+          type: "Source Code",
+          href: "",
+          icon: <Code className="size-3" />,
+        },
       ],
       image: "",
       video:
@@ -110,6 +115,11 @@ export const DATA = {
           href: "",
           icon: <Mail className="size-3" />,
         },
+        {
+          type: "Source Code",
+          href: "",
+          icon: <Code className="size-3" />,
+        },
       ],
       image: "",
       video:
@@ -136,6 +146,11 @@ export const DATA = {
           href: "",
           icon: <Mail className="size-3" />,
         },
+        {
+          type: "Source Code",
+          href: "",
+          icon: <Code className="size-3" />,
+        },
       ],
       image: "",
       video:
@@ -161,6 +176,11 @@ export const DATA = {
           type: "Website",
           href: "",
           icon: <Mail className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "",
+          icon: <Code className="size-3" />,
         },
       ],
       image: "",
