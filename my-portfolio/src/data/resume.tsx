@@ -141,6 +141,32 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
+    {
+      title: "Edven",
+      href: "",
+      dates: "December 2024 - Present",
+      active: true,
+      description:
+        "This project is my resume portfolio. It showcases my work experience, skills, and projects. The portfolio is built using React with TypeScript and TailwindCSS + shadcn UI + Magic UI.",
+      technologies: [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Tanstack Router",
+        "Tanstack Query",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Mail className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
   ],
 } as const;
 
