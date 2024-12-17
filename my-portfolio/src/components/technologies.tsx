@@ -32,7 +32,7 @@ const ReviewCard = ({ img, name }: { img: string; name: string }) => {
 
 export function Technologies() {
   return (
-    <div className="relative flex h-[200px] w-full flex-col items-center justify-center overflow-hidden bg-background md:shadow-xl">
+    <div className="relative flex h-[200px] w-full flex-col items-center justify-center overflow-hidden bg-background">
       <Marquee pauseOnHover className="[--duration:15s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.name} {...review} />
