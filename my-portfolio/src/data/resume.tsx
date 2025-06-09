@@ -35,7 +35,7 @@ export const DATA = {
     {
       company: "Asurion ROHQ",
       href: "https://www.asurion.com",
-      title: "Full Stack Engineer",
+      title: "Software Engineer Intern",
       badge: [],
       logoUrl: "../src/assets/asurion-logo.png",
       start: "2024",
