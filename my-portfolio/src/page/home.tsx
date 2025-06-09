@@ -9,7 +9,13 @@ export const HomeDocker = () => {
       <div className="relative">
         <Dock magnification={60} distance={100}>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-            <Icons.gitHub className="size-full" />
+            <a
+              href="https://github.com/karlosM1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.gitHub className="size-full" />
+            </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
             <Icons.googleDrive className="size-full" />

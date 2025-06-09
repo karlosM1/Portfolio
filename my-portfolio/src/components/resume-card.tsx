@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import React from "react";
-import { Link } from "@tanstack/react-router";
 interface ResumeCardProps {
   logoUrl?: string;
   altText: string;
@@ -36,7 +35,12 @@ export const ResumeCard = ({
   };
 
   return (
-    <Link href={href || "#"} className="cursor-pointer" onClick={handleClick}>
+    <a
+      href={href || "#"}
+      target="_blank"
+      className="cursor-pointer"
+      onClick={handleClick}
+    >
       <Card className="flex border-none shadow-none">
         <div className="flex-none">
           <Avatar className="size-12 mt-5 bg-muted-background">
@@ -98,6 +102,6 @@ export const ResumeCard = ({
           )}
         </div>
       </Card>
-    </Link>
+    </a>
   );
 };

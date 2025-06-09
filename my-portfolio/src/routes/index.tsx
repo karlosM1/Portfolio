@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { HomeDocker } from "@/page/home";
 import { PersonDescription } from "@/components/person-description";
 import { ResumeCard } from "@/components/resume-card";
@@ -144,9 +144,14 @@ function RouteComponent() {
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Want to chat? Just shoot me a dm{" "}
-                  <Link className="text-blue-500 hover:underline">
+                  <a
+                    href="https://x.com/carlostlee?s=21"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
                     with a direct question on X
-                  </Link>{" "}
+                  </a>{" "}
                   and I&apos;ll respond whenever I can. I will ignore all
                   soliciting.
                 </p>
