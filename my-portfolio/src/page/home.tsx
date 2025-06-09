@@ -18,13 +18,31 @@ export const HomeDocker = () => {
             </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-            <Icons.googleDrive className="size-full" />
+            <a
+              href="https://github.com/karlosM1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.googleDrive className="size-full" />
+            </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-            <Icons.notion className="size-full" />
+            <a
+              href="https://github.com/karlosM1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.notion className="size-full" />
+            </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-            <Icons.whatsapp className="size-full" />
+            <a
+              href="https://github.com/karlosM1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icons.whatsapp className="size-full" />
+            </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
             <ModeToggle />
