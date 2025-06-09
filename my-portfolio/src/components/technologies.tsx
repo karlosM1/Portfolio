@@ -7,18 +7,24 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "./ui/tooltip";
+import { images } from "@/constants";
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name }: { img: string; name: string }) => {
+  const imageSrc = images[img as keyof typeof images] || img;
   return (
     <figure className={cn("relative cursor-pointer w-full")}>
       <div className="flex flex-row items-center gap-3">
         <TooltipProvider delayDuration={0}>
           <Tooltip>
             <TooltipTrigger>
-              <img src={img} alt={name} className="h-12 w-12 object-contain" />
+              <img
+                src={imageSrc}
+                alt={name}
+                className="h-12 w-12 object-contain"
+              />
             </TooltipTrigger>
             <TooltipContent>
               <p>{name}</p>

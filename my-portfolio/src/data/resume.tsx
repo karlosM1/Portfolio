@@ -1,4 +1,5 @@
 import { Mail, Code } from "lucide-react";
+import { images } from "@/constants";
 
 export const DATA = {
   name: "Karlos Miguel Serrano",
@@ -47,7 +48,7 @@ export const DATA = {
     {
       school: "Lyceum of the Philippines University",
       degree: "Bachelor of Science in Computer Science",
-      logoUrl: "../src/assets/lpu-logo.png",
+      logoUrl: images.lpu,
       href: "https://manila.lpu.edu.ph",
       startDate: "2021",
       endDate: "2025",
@@ -55,7 +56,7 @@ export const DATA = {
     {
       school: "Polytechnic University of the Philippines",
       degree: "Science Technology and Engineering Mathematics",
-      logoUrl: "../src/assets/pup-logo.png",
+      logoUrl: images.pup,
       href: "https://www.pup.edu.ph",
       startDate: "2019",
       endDate: "2021",
@@ -89,7 +90,7 @@ export const DATA = {
           icon: <Code className="size-3" />,
         },
       ],
-      image: "",
+      image: images.ainforcer,
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -121,7 +122,7 @@ export const DATA = {
           icon: <Code className="size-3" />,
         },
       ],
-      image: "",
+      image: images.dash,
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -152,7 +153,7 @@ export const DATA = {
           icon: <Code className="size-3" />,
         },
       ],
-      image: "",
+      image: images.portfolio,
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -183,72 +184,73 @@ export const DATA = {
           icon: <Code className="size-3" />,
         },
       ],
-      image: "",
+      image: images.placeholder,
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
   ],
 } as const;
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const reviews = [
   {
     name: "HTML",
-    img: "../src/assets/html-5.png",
+    img: images.html,
   },
   {
     name: "CSS",
-    img: "../src/assets/css-3.png",
+    img: images.css3,
   },
   {
     name: "Javascript",
-    img: "../src/assets/js.png",
+    img: images.js,
   },
   {
     name: "Typescript",
-    img: "../src/assets/typescript.png",
+    img: images.typescript,
   },
   {
     name: "Tanstack",
-    img: "../src/assets/tanstack.png",
+    img: images.tanstack,
   },
   {
     name: "Python",
-    img: "../src/assets/python.png",
+    img: images.python,
   },
   {
     name: "React",
-    img: "../src/assets/react.png",
+    img: images.react,
   },
   {
     name: "Tanstack Query",
-    img: "../src/assets/query.png",
+    img: images.query,
   },
   {
     name: "TailwindCSS",
-    img: "../src/assets/tailwind.png",
+    img: images.tailwind,
   },
   {
     name: "Shadcn UI",
-    img: "../src/assets/shadcn.png",
+    img: images.shadcn,
   },
   {
     name: "Firebase",
-    img: "../src/assets/firebase.png",
+    img: images.firebase,
   },
   {
     name: "Express",
-    img: "../src/assets/express.png",
+    img: images.express,
   },
   {
     name: "Node Js",
-    img: "../src/assets/programing.png",
+    img: images.programming,
   },
   {
     name: "Git",
-    img: "../src/assets/git.png",
+    img: images.git,
   },
   {
     name: "Github",
-    img: "../src/assets/githubs.png",
+    img: images.github,
   },
 ];

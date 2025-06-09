@@ -12,7 +12,7 @@ export interface ProjectCardProps {
   tags: readonly string[];
   link?: string;
   image?: string;
-  video?: string;
+  // video?: string;
   links?: readonly {
     icon: React.ReactNode;
     type: string;

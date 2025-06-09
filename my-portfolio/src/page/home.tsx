@@ -1,4 +1,5 @@
 import { Dock, DockIcon } from "@/components/ui/dock";
+import { ModeToggle } from "@/components/toggle-mode";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -19,12 +20,16 @@ export const HomeDocker = () => {
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
             <Icons.whatsapp className="size-full" />
           </DockIcon>
+          <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
+            <ModeToggle />
+          </DockIcon>
         </Dock>
       </div>
     </div>
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const Icons = {
   gitHub: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>

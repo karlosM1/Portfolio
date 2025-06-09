@@ -8,6 +8,7 @@ import { About } from "@/page/about";
 import BlurFade from "@/components/ui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 import { Technologies } from "@/components/technologies";
+import { images } from "@/constants";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -15,13 +16,13 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
   return (
-    <div className="flex flex-col min-h-[100dvh] space-y-10 sm:mx-14 md:mx-20">
+    <div className="flex flex-col min-h-[100dvh] space-y-10 px-4 sm:px-8 md:px-14 lg:px-20">
       <div className="mx-auto w-full max-w-4xl space-y-8">
         <section>
           <PersonDescription
             name={DATA.name.split(" ")[0]}
             description={DATA.description}
-            image="../../src/assets/me.jpg"
+            image={images.me}
           />
         </section>
         <section>
@@ -38,7 +39,7 @@ function RouteComponent() {
             <BlurFade key={work.company} delay={0.03 * 6 + id * 0.05}>
               <ResumeCard
                 key={work.company}
-                logoUrl={work.logoUrl}
+                logoUrl={images.asurion}
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
@@ -82,7 +83,7 @@ function RouteComponent() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Technical Skills
                   </h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  <p className="text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Here&apos;s some of the tricks I've picked up along the way
                   </p>
                 </div>
@@ -104,7 +105,7 @@ function RouteComponent() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Check out my latest work
                   </h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  <p className="text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     I&apos;ve worked on a variety of projects, from simple
                     websites to complex web applications. Here are a few of my
                     favorites.
@@ -112,7 +113,7 @@ function RouteComponent() {
                 </div>
               </div>
             </BlurFade>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {DATA.projects.map((project, id) => (
                 <BlurFade key={project.title} delay={0.04 * 12 + id * 0.05}>
                   <ProjectCard
@@ -123,7 +124,7 @@ function RouteComponent() {
                     dates={project.dates}
                     tags={project.technologies}
                     image={project.image}
-                    video={project.video}
+                    // video={project.video}
                     links={project.links}
                   />
                 </BlurFade>
@@ -132,7 +133,7 @@ function RouteComponent() {
           </div>
         </section>
         <section id="contact">
-          <div className="grid items-center justify-center gap-4 px-4 text-center mb-10 md:px-6 w-full py-12">
+          <div className="grid items-center justify-center gap-4 px-2 sm:px-4 text-center mb-10 md:px-6 w-full py-12">
             <BlurFade delay={0.04 * 16}>
               <div className="space-y-3">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -141,10 +142,10 @@ function RouteComponent() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Get in Touch
                 </h2>
-                <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="mx-auto max-w-[600px] text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Want to chat? Just shoot me a dm{" "}
                   <Link className="text-blue-500 hover:underline">
-                    with a direct question on twitter
+                    with a direct question on X
                   </Link>{" "}
                   and I&apos;ll respond whenever I can. I will ignore all
                   soliciting.
