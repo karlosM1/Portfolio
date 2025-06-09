@@ -45,9 +45,7 @@ export const HomeDocker = () => {
             </a>
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-            <a className="size-full flex items-center justify-center">
-              <ModeToggle />
-            </a>
+            <ModeToggle />
           </DockIcon>
         </Dock>
       </div>
