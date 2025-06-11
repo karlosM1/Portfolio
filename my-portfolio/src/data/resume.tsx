@@ -8,25 +8,25 @@ export const DATA = {
   description:
     "Full Stack Engineer who’s all about building cool stuff from front to back. I love tackling challenges and making things work. Catch me on X for some tech talk!",
   summary:
-    "I graduated in 2025 with a computer science degree from Lyceum of thePhilippines University (LPU). Along the way, I leveled up my codingskills, joined coding challenges, and did a few internships with localtech companies. I’m all about building cool stuff and ready to divedeeper into the tech world!",
+    "I graduated in 2025 with a computer science degree from Lyceum of the Philippines University (LPU). Along the way, I leveled up my codingskills, joined coding challenges, and did a few internships with localtech companies. I’m all about building cool stuff and ready to divedeeper into the tech world!",
   avatarUrl: images.profilepicture,
   contact: {
-    email: "kmserrano@up.edu.ph",
+    email: "karlos_serrano2002@yahoo.com",
     tel: "+639495021293",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/kmserrano",
+        url: "https://github.com/karlosM1",
         // icon: Icons.github,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/kmserrano/",
+        url: "https://www.linkedin.com/in/karlos-miguel-serrano-09a025305/",
         // icon: Icons.linkedin,
       },
       email: {
         name: "Email",
-        url: "mailto:kmserrano@up.edu.ph",
+        url: "karlos_serrano2002@yahoo.com",
         // icon: Icons.email,
       },
     },
@@ -68,15 +68,18 @@ export const DATA = {
       href: "",
       dates: "Oct 2024 - Present",
       active: true,
-      description: "Plate Number and Helmet Detection",
+      description:
+        "A smart surveillance system that uses machine learning to detect motorcycle riders without helmets and identify plate numbers in real-time. Designed for road safety enforcement and monitoring.",
       technologies: [
         "React",
         "Typescript",
         "FireBase",
-        "Express",
+        "FastApi",
         "TailwindCSS",
         "Shadcn UI",
         "Next UI",
+        "Tanstack Router",
+        "Tanstack Query",
       ],
       links: [
         {
