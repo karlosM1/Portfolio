@@ -6,9 +6,9 @@ export const DATA = {
   initials: "KMS",
   location: "Quezon City, Philippines",
   description:
-    "Full Stack Engineer who’s all about building cool stuff from front to back. I love tackling challenges and making things work. Catch me on X for some tech talk!",
+    "Computer Science Student who’s all about building cool stuff from front to back. I love tackling challenges and making things work. Catch me on X for some tech talk!",
   summary:
-    "I graduated in 2025 with a computer science degree from Lyceum of the Philippines University (LPU). Along the way, I leveled up my codingskills, joined coding challenges, and did a few internships with localtech companies. I’m all about building cool stuff and ready to divedeeper into the tech world!",
+    "I'm a Computer Science student at Lyceum of the Philippines University (LPU), expected to graduate in September 2025. Along the way, I leveled up my coding skills and completed an internship with a tech company. I’m all about building cool stuff and ready to divedeeper into the tech world!",
   avatarUrl: images.profilepicture,
   contact: {
     email: "karlos_serrano2002@yahoo.com",

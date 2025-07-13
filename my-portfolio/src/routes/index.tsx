@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
 function RouteComponent() {
   return (
     <div className="flex flex-col min-h-[100dvh] space-y-10 px-4 sm:px-8 md:px-14 lg:px-20">
-      <div className="mx-auto w-full max-w-4xl space-y-8">
+      <div className="mx-auto w-full max-w-2xl space-y-8">
         <section>
           <PersonDescription
             name={DATA.name.split(" ")[0]}
