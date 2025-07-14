@@ -39,7 +39,7 @@ export const DATA = {
       badge: [],
       logoUrl: "../src/assets/asurion-logo.png",
       start: "2024",
-      end: "Present",
+      end: "2025",
       description:
         "I contributed to building a responsive front-end app using TypeScript and React, integrating TanStack Query for efficient data fetching and state management. I implemented dynamic UI components with reusable design patterns and optimized performance. Leveraged TypeScript for type safety and maintainable code, while working closely with the backend to ensure seamless API integration for a smooth user experience.",
     },
@@ -66,7 +66,7 @@ export const DATA = {
     {
       title: "AI-nforcer",
       href: "",
-      dates: "Oct 2024 - Present",
+      dates: "Oct 2024 - June 2025",
       active: true,
       description:
         "A smart surveillance system that uses machine learning to detect motorcycle riders without helmets and identify plate numbers in real-time. Designed for road safety enforcement and monitoring.",
@@ -187,7 +187,7 @@ export const DATA = {
           icon: <Code className="size-3" />,
         },
       ],
-      image: images.placeholder,
+      image: images.fragra,
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },

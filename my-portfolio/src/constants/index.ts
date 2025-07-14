@@ -5,7 +5,7 @@ import expressjs from "../assets/express-js.png";
 import express from "../assets/express.png";
 import firebase from "../assets/firebase.png";
 import git from "../assets/git.png";
-import github from "../assets/githubs.png";
+import github from "../assets/githubb.png";
 import html from "../assets/html-5.png";
 import js from "../assets/js.png";
 import lpu from "../assets/lpu-logo.png";
@@ -26,8 +26,10 @@ import typescript from "../assets/typescript.png";
 import ainforcer from "../assets/ainforcer.png";
 import portfolio from "../assets/portfolio.png";
 import placeholder from "../assets/8999474.png";
+import fragra from "../assets/fragraa.png";
 
 export const images = {
+  fragra,
   placeholder,
   ainforcer,
   asurion,
