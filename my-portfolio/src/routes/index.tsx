@@ -143,14 +143,14 @@ function RouteComponent() {
                   Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground text-base md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Want to chat? Just shoot me a dm{" "}
+                  Want to chat? You can always reach me at{" "}
                   <a
-                    href="https://x.com/carlostlee?s=21"
+                    href="mailto:karlos_serrano2002@yahoo.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline"
                   >
-                    with a direct question on X
+                    karlos_serrano2002@yahoo.com
                   </a>{" "}
                   and I&apos;ll respond whenever I can.
                 </p>
