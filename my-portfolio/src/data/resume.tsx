@@ -147,7 +147,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://karlosmiguel.vercel.app",
           icon: <Mail className="size-3" />,
         },
         {
@@ -161,12 +161,12 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Edven",
+      title: "Fragra",
       href: "",
-      dates: "December 2024 - Present",
+      dates: "July 2025 - Present",
       active: true,
       description:
-        "This project is my resume portfolio. It showcases my work experience, skills, and projects. The portfolio is built using React with TypeScript and TailwindCSS + shadcn UI + Magic UI.",
+        "A perfume discovery app with social features, mood-based and dupe finders, AI-powered reviews, and user-generated content. Lets users track in-store tests and build personal scent collections.",
       technologies: [
         "TypeScript",
         "React",
