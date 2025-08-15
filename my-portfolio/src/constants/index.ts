@@ -27,6 +27,7 @@ import ainforcer from "../assets/ainforcer.png";
 import portfolio from "../assets/portfolio.png";
 import placeholder from "../assets/8999474.png";
 import fragra from "../assets/fragraa.png";
+import karlos from "../assets/karlos.jfif";
 
 export const images = {
   fragra,
@@ -58,4 +59,5 @@ export const images = {
   tailwind,
   tanstack,
   typescript,
+  karlos,
 };

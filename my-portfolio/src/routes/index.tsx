@@ -22,7 +22,7 @@ function RouteComponent() {
           <PersonDescription
             name={DATA.name.split(" ")[0]}
             description={DATA.description}
-            image={images.me}
+            image={images.karlos}
           />
         </section>
         <section>
