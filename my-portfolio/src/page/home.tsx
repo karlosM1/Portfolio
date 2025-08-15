@@ -1,5 +1,6 @@
 import { Dock, DockIcon } from "@/components/ui/dock";
 import { ModeToggle } from "@/components/toggle-mode";
+import { Instagram } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -19,11 +20,13 @@ export const HomeDocker = () => {
           </DockIcon>
           <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
             <a
-              href="https://www.linkedin.com/in/karlos-miguel-serrano-09a025305/"
+              // href="https://www.linkedin.com/in/karlos-miguel-serrano-09a025305/"
+              href="https://www.instagram.com/miguelsrno_"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icons.linkedIn className="size-full" />
+              {/* <Icons.linkedIn className="size-full" /> */}
+              <Instagram className="size-full" />
             </a>
           </DockIcon>
           {/* <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
